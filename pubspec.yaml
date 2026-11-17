@@ -1,0 +1,34 @@
+name: iselfie_sdk
+description: "iSelfie SDK for Flutter: the cardio scan through the native iOS and Android SDKs."
+version: 1.0.0-rc.1
+homepage: https://iselfie.ai
+repository: https://github.com/AiZtech-Labs/ISelfieSDK-Flutter
+# Distributed from the public Git repository (pinned to a tag), not pub.dev — for now.
+publish_to: none
+
+environment:
+  sdk: ^3.14.0
+  # 3.44 is the first release with Swift Package Manager on by default, the only iOS
+  # integration this plugin supports.
+  flutter: '>=3.44.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.19.0
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  pigeon: ^29.0.1
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: ai.iselfie.sdk.flutter
+        pluginClass: ISelfieSdkPlugin
+      ios:
+        pluginClass: ISelfieSdkPlugin

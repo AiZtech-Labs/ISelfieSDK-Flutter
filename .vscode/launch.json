@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Example app",
+      "type": "dart",
+      "request": "launch",
+      "cwd": "example",
+      "program": "lib/main.dart",
+      "args": ["--dart-define-from-file=config/example.json"]
+    }
+  ]
+}

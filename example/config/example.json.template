@@ -1,0 +1,5 @@
+{
+  "ISELFIE_ENV": "production",
+  "ISELFIE_ORG_ID": "your-test-organization-id",
+  "ISELFIE_API_KEY": "your-test-api-key"
+}
