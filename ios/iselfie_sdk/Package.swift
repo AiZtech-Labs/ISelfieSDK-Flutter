@@ -4,7 +4,7 @@ import PackageDescription
 
 // The native iSelfie SDK this plugin wraps: the public ISelfieSDK Swift package, pinned to the
 // release that ships with this plugin version.
-let iselfieSdkVersion: Version = "1.0.0-rc.1"
+let iselfieSdkVersion: Version = "1.0.0-rc.2"
 
 // Development only: when flutter/tool/publish_local_native_sdks.sh has copied a locally built
 // ISelfieSDK.xcframework next to this repository's sources, the plugin builds against it instead

@@ -1,8 +1,8 @@
 import 'package:iselfie_sdk/iselfie_sdk.dart';
 import 'package:material_ui/material_ui.dart';
 
-import 'example_samples.dart';
-import 'example_settings.dart';
+import 'samples.dart';
+import 'test_settings.dart';
 
 /// Every option of the ready-made test, grouped like the SDK's docs.
 class OptionsForm extends StatelessWidget {

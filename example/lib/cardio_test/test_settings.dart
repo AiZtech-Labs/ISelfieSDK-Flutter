@@ -1,7 +1,7 @@
 import 'package:iselfie_sdk/iselfie_sdk.dart';
 import 'package:material_ui/material_ui.dart';
 
-import 'example_samples.dart';
+import 'samples.dart';
 
 enum ExampleStyle { system, light, dark, brand }
 

@@ -39,7 +39,7 @@ dependencies:
   iselfie_sdk:
     git:
       url: https://github.com/AiZtech-Labs/ISelfieSDK-Flutter
-      ref: 1.0.0-rc.1
+      ref: 1.0.0-rc.2
 ```
 
 The plugin brings the matching native SDKs on its own: `ISelfieSDK` through Swift Package Manager
@@ -179,9 +179,16 @@ Details: [Styles](https://github.com/AiZtech-Labs/ISelfieSDK#styles) and
 with a test organization's API key:
 
 ```bash
-cp example/config/example.json.template example/config/example.json   # fill in a TEST org
-cd example && flutter run --dart-define-from-file=config/example.json
+cd example && flutter run
 ```
+
+Sign in with the environment, organization ID and API key of a **test** organization. The app
+keeps them on the device (Keychain on iOS, encrypted storage on Android) and opens straight on the
+test screen next time; **Sign out** forgets them.
+
+To prefill the sign-in form, copy `example/config/example.json.template` to
+`example/config/example.json`, fill it in, and run with
+`--dart-define-from-file=config/example.json`.
 
 ## License
 

@@ -1,6 +1,6 @@
 name: iselfie_sdk
 description: "iSelfie SDK for Flutter: the cardio scan through the native iOS and Android SDKs."
-version: 1.0.0-rc.1
+version: 1.0.0-rc.2
 homepage: https://iselfie.ai
 repository: https://github.com/AiZtech-Labs/ISelfieSDK-Flutter
 # Distributed from the public Git repository (pinned to a tag), not pub.dev — for now.

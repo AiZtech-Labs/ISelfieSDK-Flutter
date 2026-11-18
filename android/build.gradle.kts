@@ -1,9 +1,9 @@
 group = "ai.iselfie.sdk.flutter"
-version = "1.0.0-rc.1"
+version = "1.0.0-rc.2"
 
 // The native iSelfie SDK this plugin wraps (Maven Central). During development the example app
 // resolves it from mavenLocal instead — see flutter/tool/README.md.
-val iselfieSdkVersion = "1.0.0-rc.1"
+val iselfieSdkVersion = "1.0.0-rc.2"
 
 buildscript {
     val kotlinVersion = "2.4.20"
